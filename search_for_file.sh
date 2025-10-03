@@ -14,7 +14,8 @@ search_dir() {
 			pwd
 			c=$((c + 1))
 			line=$(wc -l < $i)
-			echo "The file has $line lines of content."
+			size=$(ls -l $search | awk '{print $5}')
+			echo "The file has $line lines of content and a file size of $size Bytes."
 			return 0;
 		elif [ -d "$i" ]; then
 				cd $i
