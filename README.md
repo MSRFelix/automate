@@ -1,9 +1,14 @@
 # automate
 shell-scripts and others to optimize and automate processes
 
-# pdf_combiner: combines multiple pdfs into one
+# Makefile: automate compiling without relinking for C-files in current directory
 
-# overview_directory.sh: Shell-Skript to list txt-Files and other directorys in 
-                            your working directory
+# overview-directory.sh: lists txt-Files and other directorys in working directory 
 
-# search_for_file.sh: looking for file in current directory and all subdirectories
+# pdf-combiner: combines multiple pdfs into one
+
+# search-for-file.sh: looking for file in current directory and all subdirectories
+
+# speed-test.py: write the name of your python script to test its speed
+
+
