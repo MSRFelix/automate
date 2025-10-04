@@ -1,6 +1,8 @@
 # automate
 shell-scripts and others to optimize and automate processes
 
+# docs-python.py: displays manual for python functions
+
 # Makefile: automate compiling without relinking for C-files in current directory
 
 # overview-directory.sh: lists txt-Files and other directorys in working directory 
